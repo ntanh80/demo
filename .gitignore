@@ -1,0 +1,23 @@
+## Build output
+bin/
+obj/
+
+## SQLite local database
+*.db
+*.db-shm
+*.db-wal
+
+## User secrets / local overrides
+appsettings.*.local.json
+*.user
+
+## IDE
+.vs/
+.idea/
+*.suo
+*.userosscache
+*.sln.docstates
+
+## OS
+.DS_Store
+Thumbs.db
